@@ -134,7 +134,7 @@ daemon/pi-statusbar daemon-service-uninstall
 
 Telemetry discovery now prefers the canonical `~/.pi/agent/telemetry/instances` path (with backward-compatible fallback), restoring model metadata and latest assistant messages in the menu UI. `pi-statusbar status` continues to provide a formatted multi-section view (Daemon/App/HTTP), configurable HTTP ports via `--http-port`/`--https-port`, and `http-logs` streaming/export support.
 
-![Pi Status Bar detail panel with rich HTML rendering](docs/screenshots/statusbar-detail-rich-html-2026-02-23.png)
+![Pi Status Bar detail panel with rich HTML rendering](docs/screenshots/statusbar-detail-2026-03-02.png)
 
 ### State colors
 
@@ -160,6 +160,7 @@ Telemetry discovery now prefers the canonical `~/.pi/agent/telemetry/instances` 
 
 ### Optional HTTP bridge (for iOS / remote clients)
 
+- iOS client: [PiPulse](https://pipulse.dev) uses this bridge to read status/watch updates and send messages to running Pi sessions.
 - Script: `daemon/pi_statusd_http.py`
 - Control via `daemon/pi-statusbar`:
   - `http-start`
