@@ -7,7 +7,7 @@ This repository contains:
 - **`pi-statusd`** (Python daemon): discovers Pi agents, merges telemetry, and handles jump/focus actions.
 - **`PiStatusBar`** (SwiftUI app): menu bar UI that visualizes agent state and context pressure.
 
-> `pi-statusbar` consumes telemetry from [`@jademind/pi-telemetry`](https://github.com/jademind/pi-telemetry) and reliable plain-session messaging from [`@jademind/pi-bridge`](https://github.com/jademind/pi-bridge).
+> `pi-statusbar` consumes telemetry from [`@jademind/pi-telemetry`](https://github.com/jademind/pi-telemetry) and reliable plain-session messaging from [`@jademind/pi-bridge`](https://github.com/jademind/pi-bridge). The iOS client is [PiPulse](https://pipulse.dev).
 
 ## Version
 
